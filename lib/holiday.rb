@@ -28,6 +28,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   add_supply_to_winter_holidays.each do |season, holiday|
     season.each do |attribute, value|
       value.merge!("baloons")
+  end
 end
 
 
